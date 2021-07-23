@@ -4,18 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- stylesheet -->
     <link rel="stylesheet" href="styles/style.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <title>Panda E-Commerce</title>
-    <title>Document</title>
+    <title>Kurbanir Hat</title>
 </head>
 <body>
     
 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light container bg-light fixed-top">
+          <div class="container-fluid d-flex">
+            <div class="d-flex flex-grow-1 justify-content-between">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" width="60px" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            
+            <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"><form class="d-flex">
+                    <input class="form-control input-background rounded-pill me-auto px-5" type="search" placeholder="Search">
+                  </form></a>
+                </li>
+                <li class="nav-item ms-lg-5">
+                  <a class="nav-link active" aria-current="page" href="#carouselExampleControls">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Animals
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#cow">Cow</a></li>
+                    <li><a class="dropdown-item" href="#camel">Camel</a></li>
+                    <li><a class="dropdown-item" href="#goat">Goat</a></li>
+                    <li><a class="dropdown-item" href="#sheep">Sheep</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#photo-galary">Photo Galary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+        <!-- carousal  -->
+        <section class="carousal-section">
+          <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner carousal-user-defined d-flex align-items-lg-center">
+              <div class="carousel-item active">
+                <div class="row p-lg-5 p-md-5 p-3 d-flex align-items-lg-center">
+                  <div class="col-lg-7">
+                    <h1>Red Cow</h1>
+                    <p>Color: Red & Black<br> Weight: 320 Kg</p>
+                    <h1 class="price">Price: 200000 ৳</h1>
+                    <button class="caro-button text-white border-0 rounded-3 px-4 py-2">Buy Now <i class="fas fa-arrow-right"></i></button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/cow/cow1.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="row p-lg-5 p-md-5 p-3 d-flex align-items-lg-center">
+                  <div class="col-lg-7">
+                    <h1>Camel</h1>
+                    <p>Color: Brown<br> Weight: 3400 Kg</p>
+                    <h1 class="price">Price: 300000 ৳</h1>
+                    <button class="caro-button text-white border-0 rounded-3 px-4 py-2">Buy Now <i class="fas fa-arrow-right"></i></button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/camel/camel4.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row p-lg-5 p-md-5 p-3 d-flex align-items-lg-center">
+                  <div class="col-lg-7">
+                    <h1>Goat</h1>
+                    <p>Color: White & Brown<br> Weight: 18 Kg</p>
+                    <h1 class="price">Price: 18000 ৳</h1>
+                    <button class="caro-button text-white border-0 rounded-3 px-4 py-2">Buy Now <i class="fas fa-arrow-right"></i></button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/goat/goat2.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row p-lg-5 p-md-5 p-3 d-flex align-items-lg-center">
+                  <div class="col-lg-7">
+                    <h1>Sheep</h1>
+                    <p>Color: White<br> Weight: 28 Kg</p>
+                    <h1 class="price">Price: 27000 ৳</h1>
+                    <button class="caro-button text-white border-0 rounded-3 px-4 py-2">Buy Now <i class="fas fa-arrow-right"></i></button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/sheep/sheep1.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <!-- categories section -->
+      <section class="container mt-5 mb-5 px-lg-5 px-md-5 px-3">
+
+        <h2 class="mb-4">Categories</h2>
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-6 col-12">
+                <a class="p-2 cat1 d-flex align-items-center justify-content-between text-white" href="#cow">
+                  <h2>Cow</h2>
+                  <img src="images/cow/cow1.png" height="90px"alt="" /></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <a class="p-2 cat2 d-flex align-items-center justify-content-between text-white" href="#camel">
+                  <h2>Camel</h2>
+                  <img src="images/camel/camel1.png" height="90px"alt="" /></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <a class="p-2 cat3 d-flex align-items-center justify-content-between text-white" href="#cow">
+                  <h2>Goat</h2>
+                  <img src="images/goat/goat1.png" height="90px"alt="" /></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <a class="p-2 cat4 d-flex align-items-center justify-content-between text-white" href="#cow">
+                  <h2>Sheep</h2>
+                  <img src="images/sheep/sheep1.png" height="90px"alt="" /></a>
+            </div>
+          </div>
+      </section>
+
+      
+      </main>
+
+    <footer class="container">
+
+        <p class="mb-0 text-center"><small>©2021. All rights reserved. Md. Nagib Mahfuz Subho, BD.</small></p>
+  
+    </footer>
 
     <!-- js script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
