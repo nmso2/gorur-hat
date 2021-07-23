@@ -21,9 +21,6 @@ p{
 
 
 /* -----------navbar--------- */
-.navbar{
-    margin-bottom: 100px;
-}
 .input-background{
     background-color: #f1f1f1;
 }
@@ -67,4 +64,23 @@ p{
 .cat1 h2, .cat2 h2, .cat3 h2, .cat4 h2{
     font-size: 36px;
     font-weight: 500;
+}
+
+/* ---------------------- */
+.customize-background{
+    background: #F4F4F4;
+}
+
+/* ------------cow section----------- */
+.user-defined-animal i{
+    color: #FF136F;
+}
+.user-defined-animal p{
+    color: #3e084e;
+}
+.user-defined-animal h5{
+    color: #FF136F;
+}
+.user-defined-animal{
+    background-color: #fcf1f0;
 }
